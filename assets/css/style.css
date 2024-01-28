@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+
+    /* Primary */
+    --Pink: hsl(322, 100%, 66%);
+
+    /* Neutral */
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+
+    /* Fonts */
+    --font-family-Headings: "Poppins", sans-serif; /* 600 */
+    --font-family-Body-Call-to-actions: "Open Sans", sans-serif;/* 400, 700 */
+    --font-wght-400: 400;
+    --font-wght-600: 600;
+    --font-wght-700: 700;
+    --font-size: 18px;
+}
+
+body {
+    font-family: var(--font-family-Body-Call-to-actions) !important;
+}
+
+header {
+    background-color: var(--Very-Pale-Cyan) !important;
+    background: url('../images/bg-hero-desktop.svg') no-repeat center center/cover;
+}
+
+.navbar,
+.custom-container {
+    padding: 3rem 5rem !important;
+}
+
+.custom-nav-btn {
+    border: 0;
+    padding: 1rem 4rem;
+    background-color: white;
+    color: var(--Very-Dark-Cyan);
+    font-weight: var(--font-wght-700);
+}
+
+.custom-nav-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.custom-h1-header {
+    color: var(--Very-Dark-Cyan);
+    font-weight: var(--font-wght-700);
+    font-size: 2.6rem;
+    line-height: 1.5;
+}
+
+.custom-p-header {
+    font-size: 1.3rem;
+}
+
+.custom-btn-header {
+    border: 0;
+    color: white;
+    background-color: var(--Pink);
+    font-weight: var(--font-wght-700);
+}
+
+.custom-btn-header:hover {
+    opacity: 0.8;
+}
+
+.header-bottom {
+    margin-bottom: 160px;
+}
+
+.custom-h3-main-section {
+    color: var(--Very-Dark-Cyan);
+    font-weight: var(--font-wght-700);
+}
+
+.custom-p-main-section {
+    color: var(--Grayish-Blue);
+    font-weight: var(--font-wght-400);
+}
+
+
+.custom-h2-footer-section {
+    color: var(--Very-Dark-Cyan);
+    font-weight: var(--font-wght-600);
+}
+
+.custom-btn-footer-section {
+    font-size: 1.2rem;
+    padding: 1.7rem 6rem;
+    border: 0;
+    color: white;
+    background-color: var(--Pink);
+    font-weight: var(--font-wght-700);
+}
+
+.custom-btn-footer-section:hover {
+    opacity: 0.8;
+}
+
+.custom-container-section-before-footer {
+    position: relative;
+    background-color: white;
+    bottom: -120px;
+    max-width: 800px;
+    margin: auto;
+    padding: 2.5rem 4rem !important;
+}
+
+footer {
+    color: white;
+    background-color: var(--Very-Dark-Cyan);
+}
+
+.custom-padding-footer {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+}
+
+.links ul,
+.links ul li {
+    margin-left: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.links ul li {
+    margin-bottom: 8px;
+}
+
+.links ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.social i {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.social i:hover {
+    cursor: pointer;
+    border: 1px solid var(--Pink);
+    color: var(--Pink);
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: right;
+}
+
+@media(max-width: 768px) {
+
+    header {
+        background-color: var(--Very-Pale-Cyan) !important;
+        background: url('../images/bg-hero-mobile.svg') no-repeat center center/cover;
+    }
+
+    .navbar {
+        margin: 0 !important;
+    }
+
+    .navbar,
+    .custom-container {
+        padding: 0 !important;
+        margin: 1rem 1.5rem !important;
+        text-align: center;
+    }
+
+    .img-smaller-logo {
+        max-width: 120px !important;
+        flex-direction: row !important;
+    }
+
+    .navbar {
+        padding: 15px 5px !important;
+        margin: 0px 5px !important;
+    }
+
+    .custom-nav-btn {
+        border: 0;
+        padding: 5px 15px;
+        background-color: white;
+        color: var(--Very-Dark-Cyan);
+        font-weight: var(--font-wght-700);
+    }
+
+    .order-text {
+        order: 2;
+    }
+
+    .order-img {
+        order: 1;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .custom-h2-footer-section {
+        font-size: 1rem;
+        color: var(--Very-Dark-Cyan);
+        font-weight: var(--font-wght-600);
+    }
+
+    .custom-btn-footer-section {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+
+    .custom-container-section-before-footer {
+        margin: 1rem 1.5rem;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links ul,
+    .links ul li {
+        margin-left: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .social {
+        margin-bottom: 50px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        text-align: center;
+    }
+}
