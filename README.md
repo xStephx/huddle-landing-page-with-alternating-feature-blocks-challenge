@@ -9,6 +9,8 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ![](./assets/design/desktop-preview.jpg)
 
+You can check it out live [here](https://xstephx.github.io/huddle-landing-page-with-alternating-feature-blocks-challenge/).
+
 ## My process
 
 ### Built with
@@ -22,7 +24,3 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 
 # 🚀🚀🚀
-
-
-
-
