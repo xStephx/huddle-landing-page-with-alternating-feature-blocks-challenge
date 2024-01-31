@@ -148,6 +148,7 @@ span {
 }
 
 .social i {
+    margin: 10px;
     width: 36px;
     height: 36px;
     border: 1px solid white;
