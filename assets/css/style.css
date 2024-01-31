@@ -231,6 +231,7 @@ span {
     }
 
     .links {
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
     }
@@ -243,8 +244,14 @@ span {
     }
 
     .social {
-        margin-bottom: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+
+    .social i{
+        margin: 10px;
+    }
+
 
     .copyright {
         font-size: 12px;
