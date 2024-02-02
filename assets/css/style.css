@@ -1,11 +1,14 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Global Variables */
 :root {
     /* Colors */
 
@@ -30,11 +33,7 @@ body {
     font-family: var(--font-family-Body-Call-to-actions) !important;
 }
 
-header {
-    background-color: var(--Very-Pale-Cyan) !important;
-    background: url('../images/bg-hero-desktop.svg') no-repeat center center/cover;
-}
-
+/* Custom Headers */
 .custom-h1-header,
 .custom-h3-main-section,
 .custom-h2-footer-section{
@@ -43,6 +42,7 @@ header {
     font-weight: var(--font-wght-600);
 }
 
+/* Custom Buttons */
 .custom-nav-btn,
 .custom-btn-header,
 .custom-btn-footer-section{
@@ -57,6 +57,7 @@ header {
     opacity: 0.8;
 }
 
+/* Navbar Section */ 
 .navbar,
 .custom-container {
     padding: 3rem 5rem !important;
@@ -67,6 +68,12 @@ header {
     padding: 1rem 4rem;
     background-color: white;
     color: var(--Very-Dark-Cyan); 
+}
+
+/* Header Section */
+header {
+    background-color: var(--Very-Pale-Cyan) !important;
+    background: url('../images/bg-hero-desktop.svg') no-repeat center center/cover;
 }
 
 .custom-h1-header {
@@ -84,16 +91,17 @@ header {
     background-color: var(--Pink);
 }
 
-
 .header-bottom {
     margin-bottom: 160px;
 }
 
+/* Main Section */
 .custom-p-main-section {
     color: var(--Grayish-Blue);
     font-weight: var(--font-wght-400);
 }
 
+/* Before Footer Section */
 .custom-btn-footer-section {
     font-size: 1.2rem;
     padding: 1.7rem 6rem;
@@ -111,6 +119,7 @@ header {
     padding: 2.5rem 4rem !important;
 }
 
+/* Footer Section */
 footer {
     color: white;
     background-color: var(--Very-Dark-Cyan);
@@ -130,6 +139,7 @@ span {
     margin-left: 10px;
 }
 
+/* Links */
 .links {
     display: flex;
 }
@@ -147,10 +157,11 @@ span {
     text-decoration: underline;
 }
 
+/* Social Media Icons */
 .social i {
-    margin: 10px;
     width: 36px;
     height: 36px;
+    margin: 10px;
     border: 1px solid white;
     padding: 9px;
     border-radius: 50%;
@@ -164,6 +175,7 @@ span {
     color: var(--Pink);
 }
 
+/* Copyright */
 .copyright {
     font-size: 12px;
     text-align: right;
@@ -252,7 +264,6 @@ span {
     .social i{
         margin: 10px;
     }
-
 
     .copyright {
         font-size: 12px;
